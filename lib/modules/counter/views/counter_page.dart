@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:mvc/controllers/counter_controller.dart';
+import 'package:mvc/modules/counter/controllers/counter_controller.dart';
 
 class CounterPage extends GetView<CounterController> {
   const CounterPage({super.key});
